@@ -1,0 +1,153 @@
+:root {
+  --primary-clr: #1f2937;
+  --secondary-clr: #f9faf8;
+  --accent-clr: #3882f6;
+  --grey-clr: #e5e7eb;
+
+  --fs-800: 3rem;
+  --fs-700: 2.25rem;
+  --fs-600: 1.5rem;
+  --fs-500: 1.125rem;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+.fs-main_header {
+  font-size: var(--fs-800);
+}
+.fs-secondary_header {
+  font-size: var(--fs-700);
+}
+.fs-header_logo {
+  font-size: var(--fs-600);
+}
+.fs-secondary_text {
+  font-size: var(--fs-500);
+}
+
+.bg-primary {
+  background-color: var(--primary-clr);
+}
+.bg-grey {
+  background-color: var(--grey-clr);
+}
+.bg-accent {
+  background-color: var(--accent-clr);
+}
+.clr-primary {
+  color: var(--primary-clr);
+}
+.clr-secondary {
+  color: var(--secondary-clr);
+}
+.clr-grey {
+  color: var(--grey-clr);
+}
+.bold {
+  font-weight: 700;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header {
+  padding: 0 8rem 4rem;
+  background-color: #1f2937;
+}
+
+.links {
+  list-style: none;
+  gap: 1rem;
+}
+
+.links a {
+  text-decoration: none;
+  color: var(--grey-clr);
+  font-size: var(--fs-500);
+}
+
+.header-content {
+  margin-block: 2rem;
+  gap: 1rem;
+}
+
+.header-image img {
+  width: 600px;
+  height: 270px;
+}
+
+.info h2 {
+  text-align: center;
+}
+
+.cards {
+  gap: 3rem;
+  justify-content: center;
+}
+.card {
+  width: 200px;
+  text-align: center;
+}
+
+.card-one {
+  border: 5px solid var(--accent-clr);
+  border-radius: 10px;
+  width: 200px;
+  height: 200px;
+}
+
+.quote {
+  margin-block: 5rem;
+  padding: 5rem 8rem;
+  flex-direction: column;
+}
+
+.quote q {
+  font-style: italic;
+  text-align: center;
+  width: 50ch;
+}
+
+.quote p {
+  align-self: flex-end;
+}
+
+.cta {
+  margin: 5rem 10rem;
+  padding: 2rem 8rem;
+  border-radius: 10px;
+}
+
+.footer {
+  padding: 2rem;
+  text-align: center;
+}
+
+.btn {
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: var(--fs-500);
+  padding: 0.5rem 2.5rem;
+  color: aliceblue;
+}
+
+.full-btn {
+  background-color: #3882f6;
+}
+
+.border-btn {
+  background-color: transparent;
+  border: 2px solid var(--secondary-clr);
+}
